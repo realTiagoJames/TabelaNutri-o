@@ -21,12 +21,9 @@ console.log(imc);  //imc
 
 tdImc.textContent = imc;
 
-
-
-
-// Mensagens no console
-console.log(paciente); //tr
-console.log(tdPeso);  //td que tem o peso
-console.log(peso);  //Obter 100
-console.log(tdAltura);  //td que tem o peso
-console.log(altura);  //Obter 100
+if(peso < 0){
+    console.log("Peso inválido");
+}
+if(peso > 1000){
+    console.log("Peso inválido");
+}
