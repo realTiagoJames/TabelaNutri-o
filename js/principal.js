@@ -21,9 +21,6 @@ console.log(imc);  //imc
 
 tdImc.textContent = imc;
 
-if(peso < 0){
-    console.log("Peso inválido");
-}
-if(peso > 1000){
+if(peso < 0 || peso > 1000){
     console.log("Peso inválido");
 }
